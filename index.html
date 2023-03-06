@@ -42,6 +42,14 @@ This project is open source at https://github.com/phillipian.
       overflow-x: hidden;
     }
 
+    .nav-bar-link-2 {
+      width: 40%;
+    }
+
+    nav {
+      align-items: left;
+    }
+
     .subheader {
       font-weight: 700;
       letter-spacing: 1px;
@@ -78,6 +86,15 @@ This project is open source at https://github.com/phillipian.
       text-decoration: underline;
     }
 
+    .news-link {
+      text-decoration: none;
+      color: black;
+    }
+
+    .news-link:hover {
+      text-decoration: underline;
+    }
+
     .flex-container {
       display: flex;
       flex-direction: row;
@@ -87,6 +104,7 @@ This project is open source at https://github.com/phillipian.
       align-items: center;
       margin: 2rem 4rem;
     }
+
 
     .flex-item-a {
       text-align: center;
@@ -170,8 +188,8 @@ This project is open source at https://github.com/phillipian.
   <nav class="shadow"><img src="assets/images/p.svg" />
     <h3 style="color: #e0e6ed">Andover Black History Month</h3><a class="menu" href=""></a>
     <ul>
-      <li><a href="http://phillipian.net"><img src="assets/images/p.svg" /></a></li>
-      <li><b>DIGITAL</b> | Andover Black History Month</li>
+      <li class="nav-bar-link"><a href="http://phillipian.net"><img src="assets/images/p.svg" /></a></li>
+      <li class="nav-bar-link-2"><b>DIGITAL</b> | Andover Black History Month </li>
     </ul>
   </nav>
   <header style="background-image: url(assets/images/march/speaker.header.png);">
@@ -203,19 +221,22 @@ This project is open source at https://github.com/phillipian.
   <div class="flex-container">
     <div class="flex-item-a">
       <img class="article-illu" src="/assets/images/march/commentary-illus/Black-experience-at-Andover-phillipian-scaled.png" width="20px" />
-      <h2>Black at Andover: <br> A Personal Perspective</h2><br />
+      <h2><a class="news-link" href="https://phillipian.net/2023/02/24/black-at-andover-a-personal-perspective/
+">Black at Andover: <br> A Personal Perspective</a></h2><br />
       <p>
+
       </p>
     </div>
     <div class="flex-item-a">
       <img class="article-illu" src="/assets/images/march/commentary-illus/thumbnail_EKimModelMinority.png" width=20px />
-      <h2>Model Minority Mutiny: <br> Radicalizing Asian American <br> Students to Stand With BlackLivesMatter</h2><br />
+      <h2><a class="news-link" href="https://phillipian.net/2020/09/24/model-minority-mutiny-radicalizing-asian-american-students-to-stand-with-blacklivesmatter/
+">Model Minority Mutiny: <br> Radicalizing Asian American <br> Students to Stand With BlackLivesMatter</a></h2><br />
       <p>
       </p>
     </div>
     <div class="flex-item-a">
-      <img class="article-illu" src="/assets/images/march/headshots/john.jpeg" />
-      <h2>John Sanchez ’23</h2><br />
+      <img class="article-illu" src="/assets/images/march/commentary-illus/IMG_2321.png" />
+      <h2>Race to Understanding</h2><br />
       <p>
       </p>
     </div>
